@@ -37,6 +37,7 @@ body::before {
     background-image: url("img/Ruido.png");
     background-size: 100% 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .container__conteudo {
@@ -60,6 +61,7 @@ body::before {
     font-weight: 700;
     border: none;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .container__texto {
@@ -72,8 +74,40 @@ body::before {
 
 .container__xp span {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 600;
+}
+
+.ferro {
+    color: #ffd6f1;
+}
+
+.bronze {
+    color: #ee8802;
+}
+
+.prata {
+    color: #a9a9a9;
+}
+
+.ouro {
+    color: #e4de2d;
+}
+
+.platina {
+    color: #00ddff;
+}
+
+.ascedente {
+    color: #9501ff;
+}
+
+.imortal {
+    color: #fd2d5a;
+}
+
+.radiante {
+    color: #d156dc;
 }
 
 .container__texto-azul {
@@ -121,23 +155,19 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 2rem;
     }
 
     .container__botao {
         font-size: 16px;
     }
-
-    .container__xp {
-        margin-bottom: 4vh;
-    }
     
     .container__xp span {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 1.15rem;
     }
 
     .container__imagem-pessoa {
